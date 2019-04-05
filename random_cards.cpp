@@ -24,7 +24,7 @@ int random()
     return( rand() % 24 ) + 1;
 }
 
-int main()
+int random_cards()
 {
     srand(time(NULL));
     int tab_deck[24];
