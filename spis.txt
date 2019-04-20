@@ -1,9 +1,0 @@
-Funkcje do napisania:
-	start_game(); //menu(ustawienia gry itp.),
-	draw(); //kto zaczyna, kto ile ma kart ,kto juz nie gra (>5 -kart) itp
-	licytacja(); //interpreter kart, porownywanie , kto wygral (podbij/sprawdz) itp
-	random_card(); //tasowanie	
-			
-
-		
-	
