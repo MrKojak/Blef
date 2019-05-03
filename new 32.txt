@@ -1,5 +1,0 @@
-1.licytacja (sprawdzanie)(zmienna jakas na to) 1-5 (para,dwie,troja,
-full,kareta) 
-2.jesli nizsze niz pprzednie ^ ta zmienna (to nie mozna, jesli wyzsze,
- to mozna)
-jesli rowna to porownanie (porownanie najwyzszej karty (1)) (potem ewentualnie drugije)
