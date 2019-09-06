@@ -50,10 +50,10 @@ void START::draw(Gracz& g1,Gracz& g2,Gracz& g3,Gracz& g4,Gracz& g5, vector<int>&
     do{
     if(tab_g[numer].ile_k<tab_g[numer].ile_k_o)//1 gracz
 	{
-		g1.reka[gr1]=arr[gr1+gr2+gr3+gr4+gr5];//za 1 razem: w reke[0] wkladany jest [0] element z "arr"
+		tab_g[numer].=arr[gr1+gr2+gr3+gr4+gr5];//za 1 razem: w reke[0] wkladany jest [0] element z "arr"
 		pula_kart.push_back(arr[gr1+gr2+gr3+gr4+gr5]);
 
-		cout<<"Gracz 1:"<<g1.reka[gr1]<<endl;
+		cout<<"Gracz "<<numer<<':'<<tab_g[numer]<<endl;
 
 
 		gr1++;//[indeks] przy kolejnym przejsiu zwieksza indeks przez co daje karte z rozdania w kolejne miejsce w tablicy_[g1.reka]
